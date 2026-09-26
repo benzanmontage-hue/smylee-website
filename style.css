@@ -208,6 +208,7 @@ footer ul a:hover{color:var(--gold)}
 /* ─── React Bits animation ports ─── */
 .shiny-text{display:inline-block;background:linear-gradient(110deg,var(--gold-light) 20%,#fff 40%,var(--gold) 60%,var(--gold-deep) 80%);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shiny-move 5s linear infinite}
 @keyframes shiny-move{to{background-position:-220% center}}
+.shiny-dark{display:inline-block;background:linear-gradient(110deg,var(--teal) 15%,var(--teal-2) 40%,var(--gold-deep) 65%,var(--teal) 85%);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shiny-move 5s linear infinite}
 .fade-in{transition:opacity .7s ease,transform .7s ease}
 .js .fade-in:not(.visible){opacity:0;transform:translateY(24px)}
 .js .fade-in.visible{opacity:1;transform:translateY(0)}

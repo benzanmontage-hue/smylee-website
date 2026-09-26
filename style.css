@@ -6,13 +6,13 @@
 :root{
   --gold:#C5A676;
   --gold-light:#E4D5BC;
-  --gold-deep:#A8874F;
+  --gold-deep:#8A6D3B;
   --teal:#014548;
   --teal-2:#116162;
   --teal-light:#81B8AB;
   --ink:#032338;
   --ink-2:#1B1921;
-  --grey:#7A8893;
+  --grey:#5A666E;
   --bg:#FFFFFF;
   --bg-soft:#F7F4EE;
   --line:#ECE7DC;
@@ -31,7 +31,7 @@ a{color:inherit}
 
 /* ─── Buttons ─── */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:15px 30px;min-height:50px;border-radius:60px;font-family:'Poppins',sans-serif;font-weight:600;font-size:.95rem;text-decoration:none;cursor:pointer;border:none;transition:all .25s;white-space:nowrap}
-.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-deep));color:#fff;box-shadow:0 8px 22px rgba(197,166,118,.35);position:relative;overflow:hidden}
+.btn-gold{background:linear-gradient(135deg,#8A6D3B,#6E5730);color:#fff;box-shadow:0 8px 22px rgba(138,109,59,.4);position:relative;overflow:hidden}
 .btn-gold::after{content:'';position:absolute;top:0;left:-80%;width:45%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.4),transparent);transform:skewX(-20deg);transition:left .6s ease;pointer-events:none}
 .btn-gold:hover::after{left:135%}
 .btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(197,166,118,.45)}
@@ -48,7 +48,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(3,35,56,.08)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Poppins',sans-serif;font-weight:800;font-size:1.25rem;color:var(--ink)}
 .logo img{height:38px;width:auto}
-.logo em{font-style:normal;color:var(--gold)}
+.logo em{font-style:normal;color:var(--gold-deep)}
 .nav-links{display:flex;gap:26px;list-style:none;align-items:center}
 .nav-links a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.92rem;position:relative;padding:6px 0}
 .nav-links a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:var(--gold);transition:width .2s}
@@ -221,3 +221,8 @@ footer ul a:hover{color:var(--gold)}
   .shiny-text{animation:none;-webkit-text-fill-color:var(--gold)}
   .fade-in{opacity:1;transform:none;transition:none}
 }
+
+/* ─── Accessibility ─── */
+:focus-visible{outline:3px solid var(--gold-deep);outline-offset:2px;border-radius:2px}
+.skip-link{position:absolute;left:-9999px;top:0;z-index:9999;background:var(--teal);color:#fff;padding:12px 20px;border-radius:0 0 10px 0;font-weight:700;text-decoration:none}
+.skip-link:focus{left:0}

@@ -1,8 +1,17 @@
 /* ═══ Smylee — interactie & React Bits ports (vanilla JS) ═══ */
 
 // Mobile nav
-function toggleNav(){ document.getElementById('navLinks').classList.toggle('open'); }
-function closeNav(){ document.getElementById('navLinks').classList.remove('open'); }
+function toggleNav(){
+  var links = document.getElementById('navLinks');
+  var btn = document.querySelector('.mobile-toggle');
+  var open = links.classList.toggle('open');
+  if(btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+function closeNav(){
+  document.getElementById('navLinks').classList.remove('open');
+  var btn = document.querySelector('.mobile-toggle');
+  if(btn) btn.setAttribute('aria-expanded', 'false');
+}
 
 // Nav shadow on scroll
 window.addEventListener('scroll', function(){
@@ -128,7 +137,8 @@ function toggleFaq(btn){
   // close others
   document.querySelectorAll('.faq-q.open').forEach(function(q){
     q.classList.remove('open');
+    q.setAttribute('aria-expanded','false');
     q.closest('.faq-item').querySelector('.faq-a').style.maxHeight = null;
   });
-  if(!open){ btn.classList.add('open'); ans.style.maxHeight = ans.scrollHeight + 'px'; }
+  if(!open){ btn.classList.add('open'); btn.setAttribute('aria-expanded','true'); ans.style.maxHeight = ans.scrollHeight + 'px'; }
 }

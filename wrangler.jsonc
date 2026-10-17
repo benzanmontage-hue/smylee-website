@@ -1,0 +1,11 @@
+{
+  // Statische website van Smylee Whitening Studio (Workers static assets)
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "smylee-website",
+  "compatibility_date": "2026-10-17",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

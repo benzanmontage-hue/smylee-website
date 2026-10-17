@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.smyleetandenbleker.nl/</loc><lastmod>2026-10-17</lastmod><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.smyleetandenbleker.nl/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/hero3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/ba1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/ba2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/ba3.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/gems.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/og-image.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://www.smyleetandenbleker.nl/assets/studio2-poster.jpg</video:thumbnail_loc>
+      <video:title>Tijdens de behandeling bij Smylee in Elst</video:title>
+      <video:description>Een korte video van klanten tijdens een LED-behandeling in de studio van Smylee in Elst.</video:description>
+      <video:content_loc>https://www.smyleetandenbleker.nl/assets/studio2.mp4</video:content_loc>
+      <video:duration>5</video:duration>
+    </video:video>
+  </url>
 </urlset>

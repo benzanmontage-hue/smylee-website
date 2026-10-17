@@ -24,4 +24,4 @@ User-agent: MistralAI-User
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.smylee.nl/sitemap.xml
+Sitemap: https://www.smyleetandenbleker.nl/sitemap.xml

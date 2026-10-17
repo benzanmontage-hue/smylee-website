@@ -40,4 +40,4 @@ Een tooth gem wordt op de tand geplakt, er wordt niet geboord. Vraag via WhatsAp
 - Online: https://smylee.rocketplanner.nl
 - WhatsApp of bellen: 06 16 86 33 87
 - Adres: Dorpsstraat 57, 6111 EG Elst (Gld)
-- Prijzen op de website: https://www.smylee.nl/#prijzen
+- Prijzen op de website: https://www.smyleetandenbleker.nl/#prijzen

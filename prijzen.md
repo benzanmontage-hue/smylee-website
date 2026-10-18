@@ -1,7 +1,7 @@
 # Prijzen – Smylee Whitening Studio, Elst
 
 Tanden bleken met non-peroxide gel en LED-licht in Elst (Gelderland), tussen Arnhem en Nijmegen.
-Alle prijzen in euro, inclusief btw. Laatst bijgewerkt: 2026-10-17.
+Alle prijzen in euro, inclusief btw. Laatst bijgewerkt: 2026-10-18.
 
 ## Tanden bleken
 | Pakket | Prijs | Normale prijs | Sessies van 20 min | Afspraken | Advies bij |

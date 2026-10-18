@@ -17,7 +17,7 @@ Laatst bijgewerkt: 2026-10-18. Website: https://www.smyleetandenbleker.nl/
 - Openingstijden: maandag 12:00–19:00, dinsdag t/m zaterdag 10:00–19:00, zondag gesloten
 - Telefoon en WhatsApp: 06 16 86 33 87 (+31 6 16 86 33 87)
 - E-mail: smyleetandenbleker@gmail.com
-- Online boeken: https://smylee.rocketplanner.nl
+- Online boeken: https://smylee.rocketplanner.nl/boeken/services?vestiging=1cfe002f-52ed-4d8a-9459-fada85aa1c4d
 - Instagram: https://www.instagram.com/smyleetandenbleker/
 - Facebook: https://www.facebook.com/Smylee.nl/
 
@@ -41,7 +41,7 @@ Diamond Smile en Hollywood Smile zijn verdeeld over 2 afspraken (4+3 en 5+5 sess
 - [Veelgestelde vragen](https://www.smyleetandenbleker.nl/#faq)
 - [Adres, openingstijden en contact](https://www.smyleetandenbleker.nl/#contact)
 - [Prijzen als tekstbestand](https://www.smyleetandenbleker.nl/prijzen.md)
-- [Online afspraak maken](https://smylee.rocketplanner.nl)
+- [Online afspraak maken](https://smylee.rocketplanner.nl/boeken/services?vestiging=1cfe002f-52ed-4d8a-9459-fada85aa1c4d)
 - [Algemene voorwaarden](https://www.smyleetandenbleker.nl/algemene-voorwaarden/)
 - [Privacybeleid](https://www.smyleetandenbleker.nl/privacybeleid/)
 

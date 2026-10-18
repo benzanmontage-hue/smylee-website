@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.smyleetandenbleker.nl/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/hero3.webp</image:loc></image:image>
     <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/ba1.webp</image:loc></image:image>
     <image:image><image:loc>https://www.smyleetandenbleker.nl/assets/ba2.webp</image:loc></image:image>
@@ -17,4 +17,7 @@
       <video:duration>5</video:duration>
     </video:video>
   </url>
+  <url><loc>https://www.smyleetandenbleker.nl/algemene-voorwaarden/</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://www.smyleetandenbleker.nl/privacybeleid/</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://www.smyleetandenbleker.nl/cookiebeleid/</loc><lastmod>2026-10-18</lastmod></url>
 </urlset>

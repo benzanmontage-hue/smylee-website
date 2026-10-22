@@ -170,6 +170,41 @@ CITIES = [
             ("Wat kost tanden bleken voor klanten uit Lent?", "Dezelfde prijzen als voor al onze klanten: Fresh Smile €64,95, Bright Smile €84,95, Diamond Smile €99,95 en Hollywood Smile €149,95. Je betaalt pas na de behandeling, met pin."),
         ],
     },
+
+    {
+        "slug": "tanden-bleken-veenendaal",
+        "city": "Veenendaal",
+        "min": 35, "km": 36,
+        "meta": "Tanden bleken in Veenendaal? Bij Smylee in Elst, ±35 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "intro": "Tanden bleken in Veenendaal doe je bij Smylee Whitening Studio in Elst, op ongeveer 35 minuten rijden van Veenendaal. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
+        "route": "Vanuit Veenendaal rijd je via de A12 richting Arnhem en daarna via de A15 richting Nijmegen. Neem de afslag Elst; in het dorpscentrum vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
+        "why": [
+            "Smylee ligt in Elst, tussen Arnhem en Nijmegen. Vanuit Veenendaal combineer je het makkelijk met een bezoek aan Arnhem of Nijmegen.",
+            "Je boekt eenvoudig online en betaalt pas na de behandeling. Rondom de studio kun je gemakkelijk parkeren.",
+        ],
+        "faq": [
+            ("Waar kan ik mijn tanden laten bleken in Veenendaal?", "Bij Smylee Whitening Studio in Elst, op ongeveer 35 minuten rijden van Veenendaal. We bleken met een non-peroxide formule en LED-licht, in sessies van 20 minuten."),
+            ("Hoe lang ben ik onderweg van Veenendaal naar Smylee?", "Vanuit Veenendaal is het ongeveer 35 minuten rijden (zo'n 36 kilometer). Je rijdt via de A12 richting Arnhem en daarna via de A15 richting Nijmegen."),
+            ("Wat kost tanden bleken voor klanten uit Veenendaal?", "Dezelfde prijzen als voor al onze klanten: Fresh Smile €64,95, Bright Smile €84,95, Diamond Smile €99,95 en Hollywood Smile €149,95. Je betaalt pas na de behandeling, met pin."),
+        ],
+    },
+    {
+        "slug": "tanden-bleken-tiel",
+        "city": "Tiel",
+        "min": 31, "km": 35,
+        "meta": "Tanden bleken in Tiel? Bij Smylee in Elst, ±31 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "intro": "Tanden bleken in Tiel doe je bij Smylee Whitening Studio in Elst, op ongeveer 31 minuten rijden van Tiel. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
+        "route": "Vanuit Tiel rijd je via de A15 richting Arnhem en neem je de afslag Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
+        "why": [
+            "Smylee ligt in Elst, tussen Arnhem en Nijmegen. Vanuit Tiel ben je er in een halfuur, langs de A15.",
+            "Je boekt eenvoudig online en betaalt pas na de behandeling. Rondom de studio kun je gemakkelijk parkeren.",
+        ],
+        "faq": [
+            ("Waar kan ik mijn tanden laten bleken in Tiel?", "Bij Smylee Whitening Studio in Elst, op ongeveer 31 minuten rijden van Tiel. We bleken met een non-peroxide formule en LED-licht, in sessies van 20 minuten."),
+            ("Hoe lang ben ik onderweg van Tiel naar Smylee?", "Vanuit Tiel is het ongeveer 31 minuten rijden (zo'n 35 kilometer). Je rijdt via de A15 richting Arnhem en neemt de afslag Elst."),
+            ("Wat kost tanden bleken voor klanten uit Tiel?", "Dezelfde prijzen als voor al onze klanten: Fresh Smile €64,95, Bright Smile €84,95, Diamond Smile €99,95 en Hollywood Smile €149,95. Je betaalt pas na de behandeling, met pin."),
+        ],
+    },
 ]
 
 CSS = """

@@ -34,6 +34,23 @@ PRICES = [
 # Echte reistijden (OSRM, centrum -> Dorpsstraat 57 Elst), geverifieerd 2026-10-22.
 CITIES = [
     {
+        "slug": "tanden-bleken-elst",
+        "city": "Elst",
+        "min": 0, "km": 0,
+        "meta": "Tanden bleken in Elst? Bij Smylee Whitening Studio, aan de Dorpsstraat 57. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "intro": "Tanden bleken in Elst doe je bij Smylee Whitening Studio, midden in het dorp aan de Dorpsstraat 57. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
+        "route": "Smylee zit aan de Dorpsstraat 57 in het centrum van Elst, op loopafstand van station Elst en het winkelcentrum. Parkeren kan in de buurt.",
+        "why": [
+            "Smylee zit midden in Elst, aan de Dorpsstraat. Je loopt zo binnen vanaf het winkelcentrum of het station.",
+            "Je boekt eenvoudig online en betaalt pas na de behandeling. Rondom de studio kun je gemakkelijk parkeren.",
+        ],
+        "faq": [
+            ("Waar kan ik mijn tanden laten bleken in Elst?", "Bij Smylee Whitening Studio aan de Dorpsstraat 57, midden in het centrum van Elst. We bleken met een non-peroxide formule en LED-licht, in sessies van 20 minuten."),
+            ("Waar zit Smylee precies in Elst?", "Aan de Dorpsstraat 57, op loopafstand van station Elst en het winkelcentrum. Parkeren kan in de buurt."),
+            ("Wat kost tanden bleken bij Smylee in Elst?", "Fresh Smile €64,95, Bright Smile €84,95, Diamond Smile €99,95 en Hollywood Smile €149,95. Je betaalt pas na de behandeling, met pin."),
+        ],
+    },
+    {
         "slug": "tanden-bleken-arnhem",
         "city": "Arnhem",
         "min": 20, "km": 13,
@@ -463,6 +480,21 @@ def render(city):
     city = dict(city)
     city.setdefault("title", f"Tanden bleken in {city['city']} | Smylee Whitening Studio")
     city.setdefault("h1", f"Tanden bleken in {city['city']}")
+    is_home = city["city"] == "Elst"
+    if is_home:
+        usp_geo = '<div class="usp"><b>In Elst centrum</b><span>Dorpsstraat 57, loopafstand station</span></div>'
+        route_h2 = "Zo vind je ons in Elst"
+        map_link = f'<p><a class="link" href="https://www.google.com/maps/search/?api=1&query={MAPS_QUERY}" target="_blank" rel="noopener">Bekijk de locatie op Google Maps →</a></p>'
+        fact_a = '<div class="fact"><b>Centraal</b><span>in het dorpscentrum</span></div>'
+        fact_b = '<div class="fact"><b>Loopafstand</b><span>van station Elst</span></div>'
+        why_h2 = "Waarom kiezen voor Smylee in Elst?"
+    else:
+        usp_geo = f'<div class="usp"><b>± {city["min"]} min rijden</b><span>Vanuit {city["city"]} naar Elst</span></div>'
+        route_h2 = "Zo rijd je vanuit " + city["city"]
+        map_link = f'<p><a class="link" href="https://www.google.com/maps/dir/?api=1&origin={city["city"]}+Gelderland&destination={MAPS_QUERY}" target="_blank" rel="noopener">Open de route in Google Maps →</a></p>'
+        fact_a = f'<div class="fact"><b>± {city["min"]} min</b><span>met de auto</span></div>'
+        fact_b = f'<div class="fact"><b>± {city["km"]} km</b><span>naar de studio</span></div>'
+        why_h2 = f"Waarom vanuit {city['city']} naar Smylee?"
     url = f"{BASE}/{city['slug']}/"
     body = []
     body.append(f'<section class="hero"><div class="wrap">')
@@ -475,18 +507,18 @@ def render(city):
     body.append('<div class="usp"><b>Non-peroxide formule</b><span>Mild voor glazuur en tandvlees</span></div>')
     body.append('<div class="usp"><b>LED-licht</b><span>Sessies van 20 minuten</span></div>')
     body.append(f'<div class="usp"><b>Vanaf €64,95</b><span>Je betaalt pas na de behandeling</span></div>')
-    body.append(f'<div class="usp"><b>± {city["min"]} min rijden</b><span>Vanuit {city["city"]} naar Elst</span></div>')
+    body.append(usp_geo)
     body.append("</div></div></section>")
 
     # Route
-    body.append('<section id="route"><div class="wrap"><h2>Zo rijd je vanuit ' + city["city"] + "</h2>")
+    body.append('<section id="route"><div class="wrap"><h2>' + route_h2 + "</h2>")
     body.append('<div class="route"><div class="card">')
     body.append(f"<p>{html.escape(city['route'])}</p>")
-    body.append(f'<p><a class="link" href="https://www.google.com/maps/dir/?api=1&origin={city["city"]}+Gelderland&destination={MAPS_QUERY}" target="_blank" rel="noopener">Open de route in Google Maps →</a></p>')
+    body.append(map_link)
     body.append("</div>")
     body.append('<div class="facts">')
-    body.append(f'<div class="fact"><b>± {city["min"]} min</b><span>met de auto</span></div>')
-    body.append(f'<div class="fact"><b>± {city["km"]} km</b><span>naar de studio</span></div>')
+    body.append(fact_a)
+    body.append(fact_b)
     body.append('<div class="fact"><b>€64,95</b><span>vanaf-prijs</span></div>')
     body.append('<div class="fact"><b>Achteraf</b><span>betalen met pin</span></div>')
     body.append("</div></div></div></section>")
@@ -502,7 +534,7 @@ def render(city):
 
     # Why
     body.append('<section id="waarom"><div class="wrap">')
-    body.append(f"<h2>Waarom vanuit {city['city']} naar Smylee?</h2>")
+    body.append(f"<h2>{why_h2}</h2>")
     body.append('<div class="route" style="margin-top:20px"><div class="card"><ul style="margin:0;padding-left:0;list-style:none;display:grid;gap:14px">')
     for w in city["why"]:
         body.append(f'<li style="padding-left:22px;position:relative;color:var(--muted)"><span style="position:absolute;left:0;color:var(--gold)">✦</span>{html.escape(w)}</li>')

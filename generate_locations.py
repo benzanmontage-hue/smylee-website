@@ -37,7 +37,7 @@ CITIES = [
         "slug": "tanden-bleken-arnhem",
         "city": "Arnhem",
         "min": 20, "km": 13,
-        "meta": "Tanden bleken in Arnhem? Bij Smylee in Elst, op ongeveer 20 minuten rijden van het centrum. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "meta": "Tanden bleken in Arnhem? Bij Smylee in Elst, ±20 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
         "intro": "Tanden bleken in Arnhem doe je bij Smylee Whitening Studio in Elst, op ongeveer 20 minuten rijden van het centrum van Arnhem. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
         "route": "Vanuit het centrum van Arnhem rijd je via de A325 richting Nijmegen en neem je de afslag Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
         "why": [
@@ -54,7 +54,7 @@ CITIES = [
         "slug": "tanden-bleken-nijmegen",
         "city": "Nijmegen",
         "min": 15, "km": 10,
-        "meta": "Tanden bleken in Nijmegen? Bij Smylee in Elst, op ongeveer 15 minuten rijden van het centrum. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "meta": "Tanden bleken in Nijmegen? Bij Smylee in Elst, ±15 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
         "intro": "Tanden bleken in Nijmegen doe je bij Smylee Whitening Studio in Elst, op ongeveer 15 minuten rijden van het centrum van Nijmegen. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
         "route": "Vanuit Nijmegen rijd je via de A325 richting Arnhem en neem je de afslag Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
         "why": [
@@ -71,7 +71,7 @@ CITIES = [
         "slug": "tanden-bleken-bemmel",
         "city": "Bemmel",
         "min": 11, "km": 8,
-        "meta": "Tanden bleken in Bemmel? Bij Smylee in Elst, op ongeveer 11 minuten rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "meta": "Tanden bleken in Bemmel? Bij Smylee in Elst, ±11 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
         "intro": "Tanden bleken in Bemmel doe je bij Smylee Whitening Studio in Elst, op ongeveer 11 minuten rijden van Bemmel. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
         "route": "Vanuit Bemmel rijd je via de N839 richting Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
         "why": [
@@ -88,7 +88,7 @@ CITIES = [
         "slug": "tanden-bleken-huissen",
         "city": "Huissen",
         "min": 14, "km": 12,
-        "meta": "Tanden bleken in Huissen? Bij Smylee in Elst, op ongeveer 14 minuten rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "meta": "Tanden bleken in Huissen? Bij Smylee in Elst, ±14 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
         "intro": "Tanden bleken in Huissen doe je bij Smylee Whitening Studio in Elst, op ongeveer 14 minuten rijden van Huissen. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
         "route": "Vanuit Huissen rijd je richting Bemmel en vervolgens via de N839 naar Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57.",
         "why": [
@@ -105,7 +105,7 @@ CITIES = [
         "slug": "tanden-bleken-driel",
         "city": "Driel",
         "min": 8, "km": 6,
-        "meta": "Tanden bleken in Driel? Bij Smylee in Elst, op ongeveer 8 minuten rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "meta": "Tanden bleken in Driel? Bij Smylee in Elst, ±8 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
         "intro": "Tanden bleken in Driel doe je bij Smylee Whitening Studio in Elst, op ongeveer 8 minuten rijden van Driel. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
         "route": "Vanuit Driel rijd je in zuidelijke richting naar Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
         "why": [
@@ -122,7 +122,7 @@ CITIES = [
         "slug": "tanden-bleken-zetten",
         "city": "Zetten",
         "min": 14, "km": 14,
-        "meta": "Tanden bleken in Zetten? Bij Smylee in Elst, op ongeveer 14 minuten rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "meta": "Tanden bleken in Zetten? Bij Smylee in Elst, ±14 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
         "intro": "Tanden bleken in Zetten doe je bij Smylee Whitening Studio in Elst, op ongeveer 14 minuten rijden van Zetten. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
         "route": "Vanuit Zetten rijd je via de N836 richting Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
         "why": [
@@ -133,6 +133,41 @@ CITIES = [
             ("Waar kan ik mijn tanden laten bleken in Zetten?", "Vlakbij Zetten, bij Smylee Whitening Studio in Elst. Vanaf Zetten ben je er in ongeveer 14 minuten met de auto. We bleken met een non-peroxide formule en LED-licht, in sessies van 20 minuten."),
             ("Hoe lang ben ik onderweg van Zetten naar Smylee?", "Vanuit Zetten is het ongeveer 14 minuten rijden (zo'n 14 kilometer). Je rijdt via de N836 richting Elst."),
             ("Wat kost tanden bleken voor klanten uit Zetten?", "Dezelfde prijzen als voor al onze klanten: Fresh Smile €64,95, Bright Smile €84,95, Diamond Smile €99,95 en Hollywood Smile €149,95. Je betaalt pas na de behandeling, met pin."),
+        ],
+    },
+
+    {
+        "slug": "tanden-bleken-wageningen",
+        "city": "Wageningen",
+        "min": 20, "km": 19,
+        "meta": "Tanden bleken in Wageningen? Bij Smylee in Elst, ±20 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "intro": "Tanden bleken in Wageningen doe je bij Smylee Whitening Studio in Elst, op ongeveer 20 minuten rijden van Wageningen. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
+        "route": "Vanuit Wageningen rijd je via de N837 en de A15 richting Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
+        "why": [
+            "Smylee ligt in Elst, op een klein halfuur rijden van Wageningen. Ook vanuit Renkum, Heelsum en Bennekom ben je er snel.",
+            "Je boekt eenvoudig online en betaalt pas na de behandeling. Rondom de studio kun je gemakkelijk parkeren.",
+        ],
+        "faq": [
+            ("Waar kan ik mijn tanden laten bleken in Wageningen?", "Vlakbij Wageningen, bij Smylee Whitening Studio in Elst. Vanaf Wageningen ben je er in ongeveer 20 minuten met de auto. We bleken met een non-peroxide formule en LED-licht, in sessies van 20 minuten."),
+            ("Hoe lang ben ik onderweg van Wageningen naar Smylee?", "Vanuit Wageningen is het ongeveer 20 minuten rijden (zo'n 19 kilometer). Je rijdt via de N837 en de A15 richting Elst."),
+            ("Wat kost tanden bleken voor klanten uit Wageningen?", "Dezelfde prijzen als voor al onze klanten: Fresh Smile €64,95, Bright Smile €84,95, Diamond Smile €99,95 en Hollywood Smile €149,95. Je betaalt pas na de behandeling, met pin."),
+        ],
+    },
+    {
+        "slug": "tanden-bleken-lent",
+        "city": "Lent",
+        "min": 11, "km": 8,
+        "meta": "Tanden bleken in Lent? Bij Smylee in Elst, ±11 min rijden. Non-peroxide gel en LED-licht, vanaf €64,95. Betaal pas na de behandeling.",
+        "intro": "Tanden bleken in Lent doe je bij Smylee Whitening Studio in Elst, op ongeveer 11 minuten rijden van Lent. Je bleekt met een milde non-peroxide formule en LED-licht, in sessies van 20 minuten, en je betaalt pas na de behandeling.",
+        "route": "Vanuit Lent rijd je via de A325 richting Arnhem en neem je de afslag Elst. In het dorpscentrum van Elst vind je Smylee aan de Dorpsstraat 57, met parkeergelegenheid in de buurt.",
+        "why": [
+            "Smylee ligt in Elst, vlakbij Lent en Nijmegen-Noord. Vanuit Lent ben je er in een klein kwartier.",
+            "Je boekt eenvoudig online en betaalt pas na de behandeling. Rondom de studio kun je gemakkelijk parkeren.",
+        ],
+        "faq": [
+            ("Waar kan ik mijn tanden laten bleken in Lent?", "Vlakbij Lent, bij Smylee Whitening Studio in Elst. Vanaf Lent ben je er in ongeveer 11 minuten met de auto. We bleken met een non-peroxide formule en LED-licht, in sessies van 20 minuten."),
+            ("Hoe lang ben ik onderweg van Lent naar Smylee?", "Vanuit Lent is het ongeveer 11 minuten rijden (zo'n 8 kilometer). Je rijdt via de A325 richting Arnhem en neemt de afslag Elst."),
+            ("Wat kost tanden bleken voor klanten uit Lent?", "Dezelfde prijzen als voor al onze klanten: Fresh Smile €64,95, Bright Smile €84,95, Diamond Smile €99,95 en Hollywood Smile €149,95. Je betaalt pas na de behandeling, met pin."),
         ],
     },
 ]

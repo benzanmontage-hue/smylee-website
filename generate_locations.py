@@ -501,6 +501,7 @@ def render(city):
 
 def write_sitemap():
     urls = [f"{BASE}/"] + [f"{BASE}/{c['slug']}/" for c in CITIES] + [
+        f"{BASE}/blog/hoe-werkt-tanden-bleken/",
         f"{BASE}/algemene-voorwaarden/",
         f"{BASE}/privacybeleid/",
         f"{BASE}/cookiebeleid/",
@@ -521,6 +522,9 @@ def write_llms():
     lines.append("## Locatiepagina's")
     for c in CITIES:
         lines.append(f"- [Tanden bleken in {c['city']}]({BASE}/{c['slug']}/)")
+    lines.append("")
+    lines.append("## Blog")
+    lines.append(f"- [Hoe werkt tanden bleken? Eerlijk uitgelegd]({BASE}/blog/hoe-werkt-tanden-bleken/)")
     lines.append("")
     lines.append("## Kerngegevens")
     lines.append("- Naam: Smylee Whitening Studio (Smylee)")

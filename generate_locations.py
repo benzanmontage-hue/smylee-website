@@ -310,6 +310,7 @@ HEAD_TMPL = """<!doctype html>
 <title>{title}</title>
 <meta name="description" content="{meta}">
 <link rel="canonical" href="{url}">
+<link rel="ai-catalog" href="/ai-catalog.json">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <meta property="og:type" content="website">
@@ -569,9 +570,6 @@ def render(city):
 def write_sitemap():
     urls = [f"{BASE}/"] + [f"{BASE}/{c['slug']}/" for c in CITIES] + [
         f"{BASE}/blog/hoe-werkt-tanden-bleken/",
-        f"{BASE}/algemene-voorwaarden/",
-        f"{BASE}/privacybeleid/",
-        f"{BASE}/cookiebeleid/",
     ]
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
@@ -585,6 +583,7 @@ def write_llms():
     lines.append("> Tandenbleekstudio in Elst (Gelderland), tussen Arnhem en Nijmegen. Tanden bleken met non-peroxide gel en LED-licht, in sessies van 20 minuten, vanaf €64,95. Je betaalt pas na de behandeling, met pin.")
     lines.append("")
     lines.append(f"Laatst bijgewerkt: {TODAY}. Website: {BASE}/")
+    lines.append(f"Volledige kerngegevens (behandelingen, prijzen, FAQ, contact): {BASE}/llms-full.txt")
     lines.append("")
     lines.append("## Locatiepagina's")
     for c in CITIES:

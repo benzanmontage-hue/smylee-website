@@ -1,0 +1,27 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Smylee Whitening Studio",
+    "documentationUrl": "https://www.smyleetandenbleker.nl/",
+    "logoUrl": "https://www.smyleetandenbleker.nl/assets/logo_light.png"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:smylee:web:site",
+      "displayName": "Smylee Whitening Studio — website",
+      "type": "application/agent-card+json",
+      "url": "https://www.smyleetandenbleker.nl/",
+      "description": "Tandenbleekstudio in Elst (Gelderland), tussen Arnhem en Nijmegen. Tanden bleken met non-peroxide gel en LED-licht, in sessies van 20 minuten, vanaf €64,95. Je betaalt pas na de behandeling, met pin.",
+      "tags": ["tanden bleken", "tandenbleken", "tandenbleekstudio", "whitening", "Elst", "Gelderland", "Arnhem", "Nijmegen"],
+      "representativeQueries": [
+        "tanden bleken Elst",
+        "tanden bleken Arnhem",
+        "tanden bleken Nijmegen",
+        "wat kost tanden bleken",
+        "tandenbleekstudio Gelderland"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-10-24T00:00:00Z"
+    }
+  ]
+}

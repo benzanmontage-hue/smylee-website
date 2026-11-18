@@ -642,6 +642,39 @@ main > section:not(.hero):not(#resultaten), main > .usps + section ~ section, fo
   };
   (function(){ try{ if(localStorage.getItem('cookie-consent')==='accepted'){ window.loadGA(); } }catch(e){} })();
 </script>
+<!-- BLACK FRIDAY START: tijdelijk. Verwijder alles tussen START en END (3 blokken) of laat de einddatum in het script het automatisch doen. -->
+<style data-bf>
+.hero-price{display:none}
+.bf-hero{display:flex;align-items:center;gap:16px;margin-top:24px;max-width:460px;padding:16px 22px;border-radius:var(--r);background:var(--espresso);color:var(--dark-ink);text-decoration:none;border:1px solid var(--gold);box-shadow:0 14px 34px -18px color-mix(in srgb,var(--espresso) 70%,transparent);transition:transform .2s ease}
+.bf-hero:hover{transform:translateY(-2px)}
+.bf-hero .bf-k{display:block;font:800 var(--fs-label)/1.2 var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.bf-hero .bf-t{display:block;font:600 14px/1.3 var(--f-body);margin-top:4px}
+.bf-hero .bf-p{margin-left:auto;text-align:right;white-space:nowrap}
+.bf-hero .bf-p b{display:block;font:800 30px/1 var(--f-body);color:var(--gold);letter-spacing:-.01em}
+.bf-hero .bf-p s{font:500 13px var(--f-body);color:color-mix(in srgb,var(--dark-ink) 70%,transparent)}
+.bf{background:var(--espresso);color:var(--dark-ink);padding-block:var(--space-section,80px)}
+.bf .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.bf .bf-kick{display:inline-block;background:var(--gold);color:var(--espresso);font:800 var(--fs-label) var(--f-body);letter-spacing:.14em;text-transform:uppercase;padding:9px 16px;border-radius:999px}
+.bf h2{font-family:var(--f-display);font-weight:700;font-size:var(--fs-h2);color:var(--dark-ink);margin:18px 0 10px}
+.bf .bf-lede{color:color-mix(in srgb,var(--dark-ink) 82%,transparent);max-width:52ch;margin:0}
+.bf .bf-price{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 16px;margin:26px 0 6px}
+.bf .bf-price b{font:800 clamp(60px,7.5vw,88px)/1 var(--f-body);color:var(--gold);letter-spacing:-.02em}
+.bf .bf-price span{font:700 22px var(--f-body)}
+.bf .bf-price s{font:500 18px var(--f-body);color:color-mix(in srgb,var(--dark-ink) 70%,transparent)}
+.bf .bf-sum{font:700 18px var(--f-body);margin:0}
+.bf .bf-save{color:var(--gold);font-weight:600;margin:4px 0 0}
+.bf ul{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:8px;color:color-mix(in srgb,var(--dark-ink) 86%,transparent)}
+.bf li{display:flex;gap:10px;align-items:baseline}.bf li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--gold);transform:translateY(-1px)}
+.bf .cta-row{margin-top:28px}
+.bf .btn-ghost{background:transparent;color:var(--dark-ink);border:1.5px solid color-mix(in srgb,var(--dark-ink) 55%,transparent);box-shadow:none}.bf .btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+.bf .bf-small{font-size:var(--fs-small);color:color-mix(in srgb,var(--dark-ink) 70%,transparent);margin:18px 0 0;max-width:60ch}
+.bf .vid{max-width:340px;justify-self:center;width:100%;margin:0}
+@media (max-width:880px){.bf .wrap{grid-template-columns:1fr;gap:36px}.bf .vid{max-width:300px}.bf-hero{max-width:none;margin-top:20px}}
+.bf .wrap>*{min-width:0}.bf .btn{white-space:normal;text-align:center}
+@media (max-width:520px){.bf .cta-row{flex-direction:column;align-items:stretch}.bf .cta-row .btn{width:100%}}
+@media (max-width:380px){.bf-hero{padding:14px 16px;gap:10px}.bf-hero .bf-p b{font-size:25px}}
+</style>
+<!-- BLACK FRIDAY END (stijl) -->
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -700,6 +733,10 @@ main > section:not(.hero):not(#resultaten), main > .usps + section ~ section, fo
         <h1>Tanden bleken in Elst, tussen Arnhem en Nijmegen</h1>
         <p class="tagline">A brighter smile, more confidence</p>
         <p class="lede">Professioneel tanden bleken met een non-peroxide formule en LED-licht, in sessies van 20 minuten. Je loopt dezelfde dag naar buiten met een zichtbaar lichtere glimlach.</p>
+        <!-- BLACK FRIDAY START (hero) --><a class="bf-hero" data-bf href="#black-friday" aria-label="Black Friday Duo Deal: Bright Smile met z’n tweeën voor €75 per persoon. Bekijk de actie">
+          <span><span class="bf-k">Black Friday</span><span class="bf-t">Duo Deal · Bright Smile voor 2</span></span>
+          <span class="bf-p"><b>€75 p.p.</b><s>€84,95</s></span>
+        </a><!-- BLACK FRIDAY END (hero) -->
         <a class="hero-price" href="#prijzen" aria-label="Professioneel tanden bleken vanaf €64,95. Alle prijzen">
           <svg class="hp-spark" viewBox="0 0 32 32" aria-hidden="true"><use href="#spark" width="20" height="20" x="10" y="2"/><use href="#spark" width="12" height="12" x="2" y="16"/></svg>
           <span class="hp-text"><span class="hp-label">Professioneel tanden bleken</span><span class="hp-price"><small>vanaf</small> €64,95</span></span>
@@ -718,6 +755,28 @@ main > section:not(.hero):not(#resultaten), main > .usps + section ~ section, fo
     </div>
   </section>
 
+  <!-- BLACK FRIDAY START (sectie) -->
+  <section class="bf" id="black-friday" data-bf aria-labelledby="bfTitle">
+    <div class="wrap">
+      <div>
+        <span class="bf-kick">Black Friday · Duo Deal</span>
+        <h2 id="bfTitle">Samen stralen, samen besparen</h2>
+        <p class="bf-lede">Kom met z’n tweeën voor Bright Smile: 5 sessies van 20 minuten in één afspraak, met non-peroxide gel en LED-licht. Met je partner, vriend(in) of familie.</p>
+        <p class="bf-price"><b>€75</b><span>p.p.</span><s>normaal €84,95 p.p.</s></p>
+        <p class="bf-sum">Samen €150 in plaats van €169,90</p>
+        <p class="bf-save">Jullie besparen samen €19,90</p>
+        <ul><li>Betalen na je behandeling, met pin</li><li>Gratis annuleren tot 24 uur vooraf</li><li>Intake en kleurmeting voor en na inbegrepen</li></ul>
+        <div class="cta-row">
+          <a class="btn btn-gold" href="https://wa.me/31616863387?text=Hoi!%20Wij%20willen%20graag%20de%20Black%20Friday%20Duo%20Deal%20boeken%20(Bright%20Smile%2C%202%20personen)." target="_blank" rel="noopener">Boek de Duo Deal via WhatsApp</a>
+          <a class="btn btn-ghost" href="https://smylee.rocketplanner.nl/boeken/services?vestiging=1cfe002f-52ed-4d8a-9459-fada85aa1c4d" target="_blank" rel="noopener">Online boeken</a>
+        </div>
+        <p class="bf-small">Duo Deal: Bright Smile voor 2 personen, samen geboekt. Zet bij online boeken “Duo Deal” in de opmerking. Black Friday-actie · 18+ · Resultaten verschillen per persoon.</p>
+      </div>
+      <div class="vid"><video poster="assets/bf-duo-deal-poster.jpg" width="720" height="1280" muted loop playsinline preload="none" aria-label="Black Friday-video: Duo Deal Bright Smile voor 75 euro per persoon"><source src="assets/bf-duo-deal.mp4" type="video/mp4"></video><button type="button" class="vbtn">Pauze</button></div>
+    </div>
+  </section>
+  <script data-bf>(function(){var EINDE=new Date('2026-12-01T00:00:00+01:00');if(Date.now()>=EINDE.getTime()){document.querySelectorAll('[data-bf]').forEach(function(e){e.remove();});}})();</script>
+  <!-- BLACK FRIDAY END (sectie) -->
   <div class="usps" id="inhoud" tabindex="-1">
     <div class="wrap">
       <div class="usp"><b>Non-peroxide formule</b><span>Mild voor glazuur en tandvlees</span></div>
